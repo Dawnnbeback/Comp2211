@@ -2,7 +2,7 @@
 ## Overview
 - This application is designed to monitor and analyse water quality data, with a focus on pollutant tracking and compliance with safety standards. 
 - It was developed using **C++/Qt6** with a modular and user-friendly interface that adapts to changes in locale for basic internationalisation.
-
+```
 ### Main Components
 - **Dashboard**: Provides an overview of the main pages and core functionality.
 - **Data Page**: Displays pollutant data in a table format, enabling efficient browsing and editing.
