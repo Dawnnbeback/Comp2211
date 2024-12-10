@@ -1,5 +1,3 @@
-Here is the complete `README.md` content written entirely in Markdown code format:
-
 ```markdown
 # Water Quality Monitoring System
 
