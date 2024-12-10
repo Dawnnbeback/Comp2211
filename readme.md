@@ -6,28 +6,28 @@ A desktop application for monitoring and analyzing water quality data, focusing 
 
 ## Features
 - **Real-time Data Visualization**
-  - Interactive time-series charts.
-  - Geospatial distribution maps.
-  - Threshold compliance indicators.
+  - Interactive time-series charts
+  - Geospatial distribution maps
+  - Compliance indicators
 
 - **Multi-Parameter Analysis**
-  - Track POPs and PFAS concentrations.
-  - Monitor pollutant levels over time.
-  - Compliance status checking.
+  - POPs concentration tracking
+  - PFAS level monitoring
+  - Threshold compliance checking
 
 - **Data Management**
-  - Import/export data via CSV.
-  - Historical data analysis and trends.
-  - Sampling point editing and management.
+  - CSV data import/export
+  - Historical data analysis
+  - Sampling point management
 
 ## Technologies
-- `Qt 6.x` - Framework for UI and application logic.
-- `C++17` - Programming language for reliability and performance.
-- `CMake 3.16+` - Build system for configuration and compilation.
-- `CSV Parser` - Data handling library for pollutant data.
+- Qt 6.x - Core framework
+- C++17 - Programming language
+- CMake 3.16+ - Build system
+- CSV Parser - Data handling
 
 ## Installation
-```bash
+bash
 git clone https://github.com/username/waterqualitymonitoring.git
 cd waterqualitymonitoring
 mkdir build && cd build
