@@ -33,7 +33,6 @@ cd waterqualitymonitoring
 mkdir build && cd build
 cmake ..
 make
-```
 
 ### Main Components
 - **Dashboard**: Provides an overview of the main pages and core functionality.
@@ -85,5 +84,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Acknowledgments
 - Special thanks to the Qt Community for their excellent resources and documentation.
-- Appreciation to Placeholder Institution for their guidance and support.
 ```
