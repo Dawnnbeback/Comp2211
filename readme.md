@@ -33,6 +33,7 @@ cd waterqualitymonitoring
 mkdir build && cd build
 cmake ..
 make
+```
 
 ### Main Components
 - **Dashboard**: Provides an overview of the main pages and core functionality.
