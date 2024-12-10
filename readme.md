@@ -1,38 +1,25 @@
 ```markdown
-# Water Quality Monitoring System
-
 ## Overview
-A desktop application for monitoring and analyzing water quality data, focusing on Persistent Organic Pollutants (POPs) and Fluorinated Compounds (PFAS) across multiple sampling locations.
+This application is designed to monitor and analyse water quality data, with a focus on pollutant tracking and compliance with safety standards. It was developed using **C++/Qt6** with a modular and user-friendly interface that adapts to changes in locale for basic internationalisation.
 
-## Features
-- **Real-time Data Visualization**
-  - Interactive time-series charts
-  - Geospatial distribution maps
-  - Compliance indicators
+### Prerequisites
+- **C++17** or higher
+- **Qt6** libraries, including:
+    - **QtWidgets**
+    - **QtCharts**
+    - **QtWebView** (optional, for web content)
 
-- **Multi-Parameter Analysis**
-  - POPs concentration tracking
-  - PFAS level monitoring
-  - Threshold compliance checking
+### Installation and Setup
+**Extract the Starter Code**: 
+ - Unzip the provided starter code package to a working directory.
+ - bash
+ - cd waterqualitymonitoring
+ - mkdir build && cd build
+ - cmake ..
+ - make
 
-- **Data Management**
-  - CSV data import/export
-  - Historical data analysis
-  - Sampling point management
-
-## Technologies
-- Qt 6.x - Core framework
-- C++17 - Programming language
-- CMake 3.16+ - Build system
-- CSV Parser - Data handling
-
-## Installation
-bash
-git clone https://github.com/username/waterqualitymonitoring.git
-cd waterqualitymonitoring
-mkdir build && cd build
-cmake ..
-make
+**Data Setup**:
+    - Place your CSV dataset in the specified directory (`/data` folder).
 ```
 
 ### Main Components
