@@ -1,26 +1,7 @@
 ```markdown
 ## Overview
-This application is designed to monitor and analyse water quality data, with a focus on pollutant tracking and compliance with safety standards. It was developed using **C++/Qt6** with a modular and user-friendly interface that adapts to changes in locale for basic internationalisation.
-
-### Prerequisites
-- **C++17** or higher
-- **Qt6** libraries, including:
-    - **QtWidgets**
-    - **QtCharts**
-    - **QtWebView** (optional, for web content)
-
-### Installation and Setup
-**Extract the Starter Code**: 
- - Unzip the provided starter code package to a working directory.
- - bash
- - cd waterqualitymonitoring
- - mkdir build && cd build
- - cmake ..
- - make
-
-**Data Setup**:
-    - Place your CSV dataset in the specified directory (`/data` folder).
-```
+- This application is designed to monitor and analyse water quality data, with a focus on pollutant tracking and compliance with safety standards. 
+- It was developed using **C++/Qt6** with a modular and user-friendly interface that adapts to changes in locale for basic internationalisation.
 
 ### Main Components
 - **Dashboard**: Provides an overview of the main pages and core functionality.
